@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7469B2264281D50007CF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7469B1264281D50007CF8F /* AppDelegate.swift */; };
+		1C7469B4264281D50007CF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7469B3264281D50007CF8F /* ContentView.swift */; };
+		1C7469B6264281D50007CF8F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1C7469B5264281D50007CF8F /* Experience.rcproject */; };
+		1C7469B8264281D60007CF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7469B7264281D60007CF8F /* Assets.xcassets */; };
+		1C7469BB264281D60007CF8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7469BA264281D60007CF8F /* Preview Assets.xcassets */; };
+		1C7469C6264281D60007CF8F /* AR_Face_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7469C5264281D60007CF8F /* AR_Face_TrackingTests.swift */; };
+		1C7469D1264281D60007CF8F /* AR_Face_TrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7469D0264281D60007CF8F /* AR_Face_TrackingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7469C2264281D60007CF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7469A6264281D50007CF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7469AD264281D50007CF8F;
+			remoteInfo = "AR Face Tracking";
+		};
+		1C7469CD264281D60007CF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7469A6264281D50007CF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7469AD264281D50007CF8F;
+			remoteInfo = "AR Face Tracking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C7469AE264281D50007CF8F /* AR Face Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Face Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7469B1264281D50007CF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C7469B3264281D50007CF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C7469B5264281D50007CF8F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		1C7469B7264281D60007CF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7469BA264281D60007CF8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C7469BC264281D60007CF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7469C1264281D60007CF8F /* AR Face TrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Face TrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7469C5264281D60007CF8F /* AR_Face_TrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Face_TrackingTests.swift; sourceTree = "<group>"; };
+		1C7469C7264281D60007CF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7469CC264281D60007CF8F /* AR Face TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Face TrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7469D0264281D60007CF8F /* AR_Face_TrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Face_TrackingUITests.swift; sourceTree = "<group>"; };
+		1C7469D2264281D60007CF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7469AB264281D50007CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7469BE264281D60007CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7469C9264281D60007CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7469A5264281D50007CF8F = {
+			isa = PBXGroup;
+			children = (
+				1C7469B0264281D50007CF8F /* AR Face Tracking */,
+				1C7469C4264281D60007CF8F /* AR Face TrackingTests */,
+				1C7469CF264281D60007CF8F /* AR Face TrackingUITests */,
+				1C7469AF264281D50007CF8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C7469AF264281D50007CF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7469AE264281D50007CF8F /* AR Face Tracking.app */,
+				1C7469C1264281D60007CF8F /* AR Face TrackingTests.xctest */,
+				1C7469CC264281D60007CF8F /* AR Face TrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C7469B0264281D50007CF8F /* AR Face Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				1C7469B1264281D50007CF8F /* AppDelegate.swift */,
+				1C7469B3264281D50007CF8F /* ContentView.swift */,
+				1C7469B5264281D50007CF8F /* Experience.rcproject */,
+				1C7469B7264281D60007CF8F /* Assets.xcassets */,
+				1C7469BC264281D60007CF8F /* Info.plist */,
+				1C7469B9264281D60007CF8F /* Preview Content */,
+			);
+			path = "AR Face Tracking";
+			sourceTree = "<group>";
+		};
+		1C7469B9264281D60007CF8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C7469BA264281D60007CF8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C7469C4264281D60007CF8F /* AR Face TrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7469C5264281D60007CF8F /* AR_Face_TrackingTests.swift */,
+				1C7469C7264281D60007CF8F /* Info.plist */,
+			);
+			path = "AR Face TrackingTests";
+			sourceTree = "<group>";
+		};
+		1C7469CF264281D60007CF8F /* AR Face TrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7469D0264281D60007CF8F /* AR_Face_TrackingUITests.swift */,
+				1C7469D2264281D60007CF8F /* Info.plist */,
+			);
+			path = "AR Face TrackingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C7469AD264281D50007CF8F /* AR Face Tracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7469D5264281D60007CF8F /* Build configuration list for PBXNativeTarget "AR Face Tracking" */;
+			buildPhases = (
+				1C7469AA264281D50007CF8F /* Sources */,
+				1C7469AB264281D50007CF8F /* Frameworks */,
+				1C7469AC264281D50007CF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Face Tracking";
+			productName = "AR Face Tracking";
+			productReference = 1C7469AE264281D50007CF8F /* AR Face Tracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C7469C0264281D60007CF8F /* AR Face TrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7469D8264281D60007CF8F /* Build configuration list for PBXNativeTarget "AR Face TrackingTests" */;
+			buildPhases = (
+				1C7469BD264281D60007CF8F /* Sources */,
+				1C7469BE264281D60007CF8F /* Frameworks */,
+				1C7469BF264281D60007CF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7469C3264281D60007CF8F /* PBXTargetDependency */,
+			);
+			name = "AR Face TrackingTests";
+			productName = "AR Face TrackingTests";
+			productReference = 1C7469C1264281D60007CF8F /* AR Face TrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C7469CB264281D60007CF8F /* AR Face TrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7469DB264281D60007CF8F /* Build configuration list for PBXNativeTarget "AR Face TrackingUITests" */;
+			buildPhases = (
+				1C7469C8264281D60007CF8F /* Sources */,
+				1C7469C9264281D60007CF8F /* Frameworks */,
+				1C7469CA264281D60007CF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7469CE264281D60007CF8F /* PBXTargetDependency */,
+			);
+			name = "AR Face TrackingUITests";
+			productName = "AR Face TrackingUITests";
+			productReference = 1C7469CC264281D60007CF8F /* AR Face TrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C7469A6264281D50007CF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1C7469AD264281D50007CF8F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1C7469C0264281D60007CF8F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1C7469AD264281D50007CF8F;
+					};
+					1C7469CB264281D60007CF8F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1C7469AD264281D50007CF8F;
+					};
+				};
+			};
+			buildConfigurationList = 1C7469A9264281D50007CF8F /* Build configuration list for PBXProject "AR Face Tracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C7469A5264281D50007CF8F;
+			productRefGroup = 1C7469AF264281D50007CF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7469AD264281D50007CF8F /* AR Face Tracking */,
+				1C7469C0264281D60007CF8F /* AR Face TrackingTests */,
+				1C7469CB264281D60007CF8F /* AR Face TrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C7469AC264281D50007CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7469BB264281D60007CF8F /* Preview Assets.xcassets in Resources */,
+				1C7469B8264281D60007CF8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7469BF264281D60007CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7469CA264281D60007CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C7469AA264281D50007CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7469B4264281D50007CF8F /* ContentView.swift in Sources */,
+				1C7469B2264281D50007CF8F /* AppDelegate.swift in Sources */,
+				1C7469B6264281D50007CF8F /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7469BD264281D60007CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7469C6264281D60007CF8F /* AR_Face_TrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7469C8264281D60007CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7469D1264281D60007CF8F /* AR_Face_TrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C7469C3264281D60007CF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7469AD264281D50007CF8F /* AR Face Tracking */;
+			targetProxy = 1C7469C2264281D60007CF8F /* PBXContainerItemProxy */;
+		};
+		1C7469CE264281D60007CF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7469AD264281D50007CF8F /* AR Face Tracking */;
+			targetProxy = 1C7469CD264281D60007CF8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7469D3264281D60007CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C7469D4264281D60007CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C7469D6264281D60007CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AR Face Tracking/Preview Content\"";
+				DEVELOPMENT_TEAM = WPANDP8ZWH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AR Face Tracking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.sogang.cscp2.20182204.AR-Face-Tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C7469D7264281D60007CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AR Face Tracking/Preview Content\"";
+				DEVELOPMENT_TEAM = WPANDP8ZWH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AR Face Tracking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.sogang.cscp2.20182204.AR-Face-Tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C7469D9264281D60007CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPANDP8ZWH;
+				INFOPLIST_FILE = "AR Face TrackingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.sogang.cscp2.20182204.AR-Face-TrackingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Face Tracking.app/AR Face Tracking";
+			};
+			name = Debug;
+		};
+		1C7469DA264281D60007CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPANDP8ZWH;
+				INFOPLIST_FILE = "AR Face TrackingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.sogang.cscp2.20182204.AR-Face-TrackingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Face Tracking.app/AR Face Tracking";
+			};
+			name = Release;
+		};
+		1C7469DC264281D60007CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPANDP8ZWH;
+				INFOPLIST_FILE = "AR Face TrackingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.sogang.cscp2.20182204.AR-Face-TrackingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Face Tracking";
+			};
+			name = Debug;
+		};
+		1C7469DD264281D60007CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPANDP8ZWH;
+				INFOPLIST_FILE = "AR Face TrackingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.sogang.cscp2.20182204.AR-Face-TrackingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Face Tracking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7469A9264281D50007CF8F /* Build configuration list for PBXProject "AR Face Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7469D3264281D60007CF8F /* Debug */,
+				1C7469D4264281D60007CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7469D5264281D60007CF8F /* Build configuration list for PBXNativeTarget "AR Face Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7469D6264281D60007CF8F /* Debug */,
+				1C7469D7264281D60007CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7469D8264281D60007CF8F /* Build configuration list for PBXNativeTarget "AR Face TrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7469D9264281D60007CF8F /* Debug */,
+				1C7469DA264281D60007CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7469DB264281D60007CF8F /* Build configuration list for PBXNativeTarget "AR Face TrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7469DC264281D60007CF8F /* Debug */,
+				1C7469DD264281D60007CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C7469A6264281D50007CF8F /* Project object */;
+}
